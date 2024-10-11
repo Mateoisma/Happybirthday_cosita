@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosita Bella Camilita</title>
+    <style>
+        body, html {
+            background-color: #0b0920; /* Negro */
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .imagen-fondo {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 200px;
+            height: 300px;
+        }
+
+        .imagen-fondo-2 {
+            position: absolute;
+            top: 0px;
+            left: 800px;
+            width: 200px;
+            height: 300px;
+        }
+
+        h1, h2 {
+            color: rgb(134, 19, 109);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 8vw;
+            animation: fadeInOut 3s infinite; /* Animación suave */
+        }
+
+        h2 {
+            font-size: 4vw;
+            margin-top: 20px;
+            animation: pulse 2s infinite; /* Pequeño efecto de pulsación */
+        }
+
+        button {
+            font-size: 3vw;
+            padding: 15px 30px;
+            margin-top: 30px;
+            border: none;
+            margin-left: 200px;
+            background-color: #ff3366;
+            color: rgb(255, 253, 253);
+            cursor: pointer;
+            border-radius: 50px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+        }
+
+        @keyframes fadeInOut {
+            0%, 100% {
+                opacity: 0.8;
+            }
+            50% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="https://media.giphy.com/media/tAd1DjWayhxpLucI1G/giphy.gif" alt="Spider" class="imagen-fondo-2">
+        <img src="https://media.giphy.com/media/2lCDzwMI6cDXXI2mYF/giphy.gif" alt="red" class="imagen-fondo">
+        <h1>My Love(●'◡'●)💕</h1>
+        <h2>I have a suprise for you✍(◔◡◔)</h2>
+        <button onclick="window.location.href='rosas.html'">Kisses in everywhere☞💛</button>
+        <img src="https://media.giphy.com/media/eQW8CG7G2TjsmWUyG7/giphy.gif" alt="Happy Birthday" style="width: 100px; height: 100px; margin-right: 20px;">
+    </div>
+</body>
+</html>
